@@ -1,9 +1,13 @@
 "use client";
 
 import { TodoItem } from "@/components/TodoItem";
+import { nanoid } from "nanoid";
+import { useState } from "react";
+import { Todo } from "../types/todo";
+
 /**
  *
- * 1) Import the CopilotKit components
+ * 1) CopilotKit Integration
  *
  **/
 
@@ -14,10 +18,6 @@ import {
 } from "@copilotkit/react-core";
 import { CopilotPopup } from "@copilotkit/react-ui";
 import "@copilotkit/react-ui/styles.css";
-
-import { nanoid } from "nanoid";
-import { useState } from "react";
-import { Todo } from "../types/todo";
 
 export default function Home() {
   return (
