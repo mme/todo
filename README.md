@@ -1,4 +1,4 @@
-## Getting Started
+## Add your OpenAI API key
 
 Add your environment variables to `.env.local` in the root of the project.
 
